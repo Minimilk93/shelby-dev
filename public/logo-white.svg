@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="24px" viewBox="0 0 29 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="16.7491848 14.8998466 0 19.839007 0 9.96068621"></polygon>
+        <polygon id="path-3" points="24.7695207 4.9391604 8.60499577 9.87832079 8.60499577 0"></polygon>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-66.000000, -1322.000000)">
+        <g id="logo-white" transform="translate(80.413622, 1334.000000) rotate(-23.000000) translate(-80.413622, -1334.000000) translate(67.913622, 1324.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Triangle-Copy" stroke="#FFFFFF" stroke-width="3" transform="translate(8.374592, 14.899847) scale(-1, 1) translate(-8.374592, -14.899847) " xlink:href="#path-1"></use>
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Triangle" stroke="#FFFFFF" stroke-width="3" xlink:href="#path-3"></use>
+        </g>
+    </g>
+</svg>

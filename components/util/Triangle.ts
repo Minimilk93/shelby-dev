@@ -30,13 +30,13 @@ export class Triangle implements ITriangle {
 
   init(): void {
     this.pos.x = this.canvasWidth * 0.5;
-    this.pos.y = this.canvasHeight * 0.5 - 20;
-    this.coords[0].x = -10 + Math.random() * 50;
-    this.coords[0].y = -10 + Math.random() * 50;
-    this.coords[1].x = -10 + Math.random() * 50;
-    this.coords[1].y = -10 + Math.random() * 50;
-    this.coords[2].x = -10 + Math.random() * 50;
-    this.coords[2].y = -10 + Math.random() * 50;
+    this.pos.y = this.canvasHeight * 0.5;
+    this.coords[0].x = -10 + Math.random() * 30;
+    this.coords[0].y = -10 + Math.random() * 30;
+    this.coords[1].x = -10 + Math.random() * 30;
+    this.coords[1].y = -10 + Math.random() * 30;
+    this.coords[2].x = -10 + Math.random() * 30;
+    this.coords[2].y = -10 + Math.random() * 30;
 
     setTimeout(() => {
       this.alpha = 0.8;

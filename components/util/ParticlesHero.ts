@@ -21,7 +21,7 @@ export class ParticlesHero {
   constructor(window: Window, canvasRef: any, headerRef: HTMLElement) {
     this.window = window
     this.width = window.innerWidth;
-    this.height = window.innerHeight - 50;
+    this.height = window.innerHeight;
     this.canvas = canvasRef;
     this.ctx = this.canvas.getContext('2d');
     this.triangles = []
@@ -41,7 +41,7 @@ export class ParticlesHero {
     this.canvas.height = this.height;
 
     for (var x = 0; x < 480; x++) {
-      this.addTriangle(x * 10);
+      this.addTriangle(x * 20);
     }
   }
 
@@ -91,6 +91,8 @@ export class ParticlesHero {
     this.largeHeader.style.height = this.height + 'px';
     this.canvas.width = this.width;
     this.canvas.height = this.height;
+    this.triangles = []
+    this.initHeader();
   }
 
   animate() {

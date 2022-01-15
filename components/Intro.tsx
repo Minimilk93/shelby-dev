@@ -3,7 +3,7 @@ import React from 'react';
 const Intro = () => {
   return (
     <section className="container mx-auto mb-6">
-      <div className="w-1/2 mx-auto px-3 my-16">
+      <div className="lg:w-1/2 mx-auto px-3 my-16">
         <p className="text-lg mb-6">
           I&lsquo;m currently working as a{' '}
           <span className="text-sorange">

@@ -2,19 +2,19 @@ import React from 'react';
 
 const Intro = () => {
   return (
-    <section className="container mx-auto mb-6">
+    <section className="container mx-auto px-3 mb-6">
       <div className="lg:w-1/2 mx-auto px-3 my-16">
         <p className="text-lg mb-6">
           I&lsquo;m currently working as a{' '}
           <span className="text-sorange">
-            software engineer at Sky Betting &amp; Gaming
+            Software Engineer at Sky Betting &amp; Gaming
           </span>
           . My passions lie in creating accessible experiences, writing clean
           code and learning new technologies which I can utilise to provide
           better systems.
         </p>
         <p className="mb-6">
-          My interest in coding started when I was around 13 years old
+          My interest in programming started when I was around 13 years old,
           attempting to make a row of Pikachu in hula skirts dance on a web
           banner. Who would have thought that would ignite a hunger to learn
           more!{' '}

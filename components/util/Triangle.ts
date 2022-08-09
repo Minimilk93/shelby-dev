@@ -1,31 +1,37 @@
-export interface ITriangle{
-  coords: Array<any>
-  pos: any
-  init(): void
-  draw(): void
+export interface ITriangle {
+  coords: Array<any>;
+  pos: any;
+  init(): void;
+  draw(): void;
 }
 
 export class Triangle implements ITriangle {
-  coords: any[]
-  pos: any
-  canvasWidth: number
-  canvasHeight: number
-  colorsArray: Array<string>
-  scale: number
-  color: string
-  alpha: number
-  ctx: any
+  coords: any[];
+  pos: any;
+  canvasWidth: number;
+  canvasHeight: number;
+  colorsArray: Array<string>;
+  scale: number;
+  color: string;
+  alpha: number;
+  ctx: any;
 
-  constructor(canvasWidth: number, canvasHeight: number, colorsArray: Array<string>, ctx: any) {
-    this.coords = [{}, {}, {}]
-    this.pos = {}
-    this.canvasWidth = canvasWidth
-    this.canvasHeight = canvasHeight
-    this.colorsArray = colorsArray
-    this.ctx = ctx
-    this.scale = 0.1 + Math.random() * 0.3
-    this.alpha = 0
-    this.color = this.colorsArray[Math.floor(Math.random() * this.colorsArray.length)];
+  constructor(
+    canvasWidth: number,
+    canvasHeight: number,
+    colorsArray: Array<string>,
+    ctx: any
+  ) {
+    this.coords = [{}, {}, {}];
+    this.pos = {};
+    this.canvasWidth = canvasWidth;
+    this.canvasHeight = canvasHeight;
+    this.colorsArray = colorsArray;
+    this.ctx = ctx;
+    this.scale = 0.1 + Math.random() * 0.3;
+    this.alpha = 0;
+    this.color =
+      this.colorsArray[Math.floor(Math.random() * this.colorsArray.length)];
   }
 
   init(): void {

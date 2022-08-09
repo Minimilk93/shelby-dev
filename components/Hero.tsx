@@ -1,8 +1,7 @@
-import React, { createRef, useEffect } from 'react';
-import { ParticlesHero } from './util/ParticlesHero';
+import React from 'react';
 import Image from 'next/image';
 import Lottie from 'react-lottie-player';
-import lottieData from './lottie-data.json';
+import lottieData from '../data/lottie-data.json';
 
 export const Hero = () => {
   return (
